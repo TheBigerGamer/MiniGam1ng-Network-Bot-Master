@@ -12,7 +12,7 @@ const config = require("./config.json");
 client.config = config;
 ​
 //ONLINE COMMAND
-client.login(process.env.bot.TOKEN);
+client.login(process.env.NTIyNDY2NTIwMjM3MDgwNTc2.DvLYfg.gxgGDQgVZD7KzXpPGA3ofufDJR0);
 
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
