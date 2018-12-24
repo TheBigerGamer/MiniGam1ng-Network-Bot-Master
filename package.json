@@ -1,14 +1,34 @@
 {
-  "name": "WINSTON",
-  "version": "1.0.0",
-  "description": "Use /help para começar",
-  "main": "bot.js",
-  "author": "TheBigerGamer",
+  "name": "MiniGam1ng Network Bot",
+  "version": "2.3.5",
+  "description": "Use /help para começar.",
+  "main": "index.js",
   "scripts": {
-	"start": "node bot.js"
-	},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBigerGamer/MiniGam1ng-Network-Bot-Master.git"
+  },
+  "author": "TheBigerGamer <thebigergameroficial@gmail.com>",
+  "contributors": [
+    "York (http://anidiots.guide)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBigerGamer/MiniGam1ng-Network-Bot-Master/issues"
+  },
+  "homepage": "https://github.com/TheBigerGamer/MiniGam1ng-Network-Bot-Master",
   "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "winston": "^3.1.0"
+    "better-sqlite-pool": "^0.1.2",
+    "chalk": "^2.3.0",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.2.1",
+    "moment": "^2.20.1",
+    "moment-duration-format": "^2.2.0"
   }
 }
